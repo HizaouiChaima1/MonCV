@@ -1,0 +1,82 @@
+:root {
+    --primarycolor: red;
+    --secondarycolor: rgb(214, 20, 130);
+    --lightcolor: white;
+    --bigcolor-1: rgb(40, 39, 39);
+    --bigcolor-2: #22282a;
+    --padding: 8%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--lightcolor);
+}
+
+.text2 {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bigcolor-1);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.for {
+    color: var(--secondarycolor);
+    font-weight: bold;
+}
+
+input {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label {
+    text-align: center;
+}
+
+h1 {
+    color: var(--secondarycolor);
+    font-size: 60px;
+    margin: 0 px;
+    padding: 40px 0;
+}
+
+.envoyer {
+    background-color: rgb(234, 8, 151);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+}
+
+.envoyer:hover {
+    background-color: transparent;
+    color: var(--lightcolor);
+    border: 2PX solid;
+}
+.image {
+    width:100%;
+    height: 100%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.image img {
+    float: right; /* Aligner l'image à droite */
+    width: 200px; /* Largeur de l'image */
+    height: auto;
+}
